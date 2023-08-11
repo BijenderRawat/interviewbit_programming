@@ -16,11 +16,4 @@ public class MaximumAbsoluteDifference{
         }
         return Math.max(max1-min1, max2-min2);
     }
-    public static void main(String [] args){
-        ArrayList<Integer> A = new ArrayList<Integer>();
-        A.add(1);
-        A.add(-3);
-        A.add(-1);
-        System.out.print(maxArr(A));
-    }
 }

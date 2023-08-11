@@ -11,7 +11,7 @@
 import java.util.ArrayList;
 
 public class MinimumLightsToActivate {
-    public static int solve(ArrayList<Integer> A, int B) {
+    public int solve(ArrayList<Integer> A, int B) {
         int count = 0, i = 0, n = A.size();
         while (i < n) {
             int left = Math.max(0, i - B + 1);
@@ -30,17 +30,5 @@ public class MinimumLightsToActivate {
             i = right + B;
         }
         return count;
-    }
-
-    public static void main(String[] args) {
-        ArrayList<Integer> A = new ArrayList<>();
-        A.add(1);
-        A.add(1);
-        A.add(0);
-        A.add(0);
-        A.add(1);
-        A.add(1);
-        int B = 3;
-        System.out.println(solve(A, B));
     }
 }

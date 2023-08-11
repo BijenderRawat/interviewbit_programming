@@ -27,13 +27,4 @@ public class MaxDistance {
         }
         return max;
     }
-
-    public static void main(String[] args) {
-        ArrayList<Integer> A = new ArrayList<Integer>();
-        A.add(100);
-        A.add(100);
-        A.add(100);
-        A.add(100);
-        System.out.print(maximumGap(A));
-    }
 }
