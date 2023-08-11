@@ -5,9 +5,10 @@
  * 
  * Do it in O(N)
  */
+
 import java.util.ArrayList;
 
-public class Segregate0sand1s {
+public class Segregatesands {
     public ArrayList<Integer> solve(ArrayList<Integer> A) {
         for (int i = 0, j = A.size() - 1; i < j;) {
             if (A.get(i) == 0) {
