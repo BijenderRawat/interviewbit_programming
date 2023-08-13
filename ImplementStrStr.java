@@ -18,7 +18,7 @@ For the purpose of this problem, assume that the return value should be -1 in bo
 */
 
 public class ImplementStrStr {
-    public static int strstr(String A, String B) {
+    public int strstr(String A, String B) {
         if (A.length() == 0 || B.length() == 0 || B.length() > A.length())
             return -1;
         if (A.length() == B.length()) {
@@ -36,11 +36,5 @@ public class ImplementStrStr {
                 return i;
         }
         return ans;
-    }
-
-    public static void main(String[] args) {
-        String A = "babababbababaaababbbbaaababba";
-        String B = "babbaaa";
-        System.out.print(strstr(A, B));
     }
 }

@@ -3,7 +3,7 @@ While checking for a palindrome, you have to ignore spaces, case, and all specia
 i.e. consider only alphanumeric characters. */
 
 public class PalindromeString{
-    public static int isPalindrome(String A){
+    public int isPalindrome(String A){
         int first = 0;
         int last = A.length()-1;
         while(first<last){
@@ -20,9 +20,5 @@ public class PalindromeString{
             last--;
         }
         return 1;
-    }
-    public static void main(String [] args){
-        String s = "A man, a plan, a canal: Panama";
-        System.out.print(isPalindrome(s));
     }
 }

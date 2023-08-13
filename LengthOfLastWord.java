@@ -2,7 +2,7 @@
 // return 0 if last word do not exist
 
 public class LengthOfLastWord {
-    public static int lengthOfLastWord(String s) {
+    public int lengthOfLastWord(String s) {
         if (s.length() == 1 && s.charAt(0) != ' ')
             return 1;
         int i = s.length() - 1;
@@ -16,10 +16,5 @@ public class LengthOfLastWord {
             ans++;
         }
         return ans;
-    }
-
-    public static void main(String[] args) {
-        String s = "hellol ";
-        System.out.println(lengthOfLastWord(s));
     }
 }

@@ -48,10 +48,4 @@ public class AllocateBooks {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        int[] a = { 5, 17, 100, 11 };
-        int b = 4;
-        System.out.print(books(a, b));
-    }
 }

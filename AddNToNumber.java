@@ -22,13 +22,4 @@ public class AddNToNumber {
         }
         return ans;
     }
-
-    public static void main(String[] args) {
-        ArrayList<Integer> A = new ArrayList<Integer>();
-        A.add(9);
-        A.add(9);
-        A.add(9);
-        for (int i : plusOne(A, 1))
-            System.out.print(i + " ");
-    }
 }

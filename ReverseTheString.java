@@ -28,9 +28,4 @@ public class ReverseTheString {
         }
         return ans.substring(0, ans.length() - 1);
     }
-
-    public static void main(String[] args) {
-        String s = "Hello World";
-        System.out.println(solve(s));
-    }
 }
