@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class OccuranceOfNumber {
+public class OccuranceOfEachNumber {
     public ArrayList<Integer> findOccuranaces(ArrayList<Integer> A) {
         ArrayList<Integer> ans = new ArrayList<>();
         TreeMap<Integer, Integer> map = new TreeMap<>();
