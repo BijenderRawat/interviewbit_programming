@@ -1,4 +1,4 @@
-import java.util.*;
+package Tree;
 
 class Node {
     int data;
@@ -20,8 +20,6 @@ class Depth {
 
 public class BurnATree {
     public static int ans = -1;
-
-    public static Scanner scn = new Scanner(System.in);
 
     public static int min_burn(Node A, int B, Depth depth) {
         if (A == null)
@@ -51,23 +49,5 @@ public class BurnATree {
         Depth d = new Depth(-1);
         min_burn(A, B, d);
         return ans;
-    }
-
-    public static Node createTree() {
-		System.out.println("Enter data: ");
-		int data = scn.nextInt();
-		if (data == -1)
-			return null;
-		Node root = new Node(data);
-		System.out.println("Enter left data for " + data);
-		root.left = createTree();
-		System.out.println("Enter right data for " + data);
-		root.right = createTree();
-		return root;
-	}
-
-    public static void main(String[] args) {
-        Node root = createTree();
-        System.out.print(solve(root, 2));
     }
 }
