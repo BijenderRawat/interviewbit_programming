@@ -2,7 +2,7 @@
  * Easy q to check where from the given lengths, a rectangle can be formed or not?
  */
 
-public class IsRectangle {
+class IsRectangle {
     public int solve(int A, int B, int C, int D) {
         if (A == B && B == C && C == D)
             return 1;

@@ -12,7 +12,7 @@
 
 import java.util.ArrayList;
 
-public class MakeEqualElements {
+class MakeEqualElements {
     public int solve(ArrayList<Integer> A, int B) {
         if (B == 0)
             return 0;

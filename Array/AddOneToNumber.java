@@ -2,7 +2,7 @@
 
 import java.util.ArrayList;
 
-public class AddOneToNumber {
+class AddOneToNumber {
     public static ArrayList<Integer> plusOne(ArrayList<Integer> A) {
         ArrayList<Integer> res = new ArrayList<Integer>();
         int num, carry = 1;

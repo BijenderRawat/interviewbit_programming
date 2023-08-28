@@ -4,7 +4,7 @@
 
 import java.util.ArrayList;
 
-public class MaximumAbsoluteDifference{
+class MaximumAbsoluteDifference{
     public static int maxArr(ArrayList<Integer> A){
         int max1 = Integer.MIN_VALUE, max2 = Integer.MIN_VALUE;
         int min1 = Integer.MAX_VALUE, min2 = Integer.MAX_VALUE;

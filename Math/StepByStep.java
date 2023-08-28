@@ -9,7 +9,7 @@
  * Find the minimum number of moves required to reach the target.
  */
 
-public class StepByStep {
+class StepByStep {
     public int solve(int A) {
         A = Math.abs(A);
         int i = 0, sum = 0;

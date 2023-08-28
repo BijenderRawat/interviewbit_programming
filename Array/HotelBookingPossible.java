@@ -11,7 +11,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class HotelBookingPossible {
+class HotelBookingPossible {
 
     public static boolean hotel(ArrayList<Integer> arrive, ArrayList<Integer> depart, int k) {
         if (arrive == null || depart == null)

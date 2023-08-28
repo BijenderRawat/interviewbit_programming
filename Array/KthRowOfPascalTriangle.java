@@ -10,7 +10,7 @@
 
 import java.util.ArrayList;
 
-public class KthRowOfPascalTriangle {
+class KthRowOfPascalTriangle {
     public ArrayList<Integer> getRow(int A) {
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
         for (int i = 0; i <= A; i++) {

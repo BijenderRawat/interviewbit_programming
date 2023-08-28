@@ -10,7 +10,7 @@
 
 import java.util.List;
 
-public class SumOfPairwiseHammingDistance {
+class SumOfPairwiseHammingDistance {
     public int hammingDistance(List<Integer> A) {
         long ans = 0;
         for (int i = 0; i < 32; i++) {

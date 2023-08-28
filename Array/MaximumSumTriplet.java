@@ -9,7 +9,7 @@
 import java.util.ArrayList;
 import java.util.TreeSet;
 
-public class MaximumSumTriplet {
+class MaximumSumTriplet {
     public static int solve(ArrayList<Integer> A) {
         int n = A.size();
         int[] max = new int[n];

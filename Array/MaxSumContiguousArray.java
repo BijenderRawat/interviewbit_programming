@@ -3,7 +3,7 @@
 
 import java.util.ArrayList;
 
-public class MaxSumContiguousArray {
+class MaxSumContiguousArray {
     public int maxSubArray(ArrayList<Integer> A) {
         int max = Integer.MIN_VALUE;
         int temp = 0;

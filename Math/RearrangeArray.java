@@ -7,7 +7,7 @@
 
 import java.util.ArrayList;
 
-public class RearrangeArray {
+class RearrangeArray {
     public void arrange(ArrayList<Integer> a) {
         int[] array = new int[a.size()];
         for (int i = 0; i < array.length; i++)

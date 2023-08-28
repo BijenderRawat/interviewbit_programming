@@ -10,7 +10,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class FindDuplicateInArray {
+class FindDuplicateInArray {
     public static int repeatedNumber(final List<Integer> A) {
         Set<Integer> set = new HashSet<Integer>();
         for (int num : A) {

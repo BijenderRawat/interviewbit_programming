@@ -5,7 +5,7 @@
  * Your solution should be in logarithmic time complexity.
  */
 
-public class TrailingZeroesInFactorial {
+class TrailingZeroesInFactorial {
     public int trailingZeroes(int A) {
         int res = 0;
         for (int i = 5; i <= A; i *= 5)

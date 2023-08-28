@@ -6,7 +6,7 @@
  * indexing starts from 1 to 8
  */
 
-public class TotalMovesForBishop {
+class TotalMovesForBishop {
 
     /*
      * Solution approach is to count the number of moves, a bishop can make on all

@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class LargestNumber {
+class LargestNumber {
     public static String solve(ArrayList<Integer> a) {
         String[] arr = new String[a.size()];
         for (int i = 0; i < a.size(); i++)

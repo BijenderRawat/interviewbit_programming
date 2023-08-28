@@ -22,7 +22,7 @@ class Interval {
     }
 }
 
-public class MergeIntervals {
+class MergeIntervals {
     public ArrayList<Interval> insert(ArrayList<Interval> intervals, Interval newInterval) {
         ArrayList<Interval> ans = new ArrayList<>();
         intervals.add(newInterval);

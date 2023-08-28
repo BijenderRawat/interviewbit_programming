@@ -10,7 +10,7 @@
 
 import java.util.ArrayList;
 
-public class ArraySum {
+class ArraySum {
     public ArrayList<Integer> solve(ArrayList<Integer> A, ArrayList<Integer> B) {
         ArrayList<Integer> ans = new ArrayList<>();
         int i = A.size() - 1;

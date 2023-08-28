@@ -6,7 +6,7 @@
 
 import java.util.ArrayList;
 
-public class AntiDiagonal {
+class AntiDiagonal {
     public ArrayList<ArrayList<Integer>> solve(ArrayList<ArrayList<Integer>> A) {
         ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
 

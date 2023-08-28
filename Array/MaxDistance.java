@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class MaxDistance {
+class MaxDistance {
     public static int maximumGap(ArrayList<Integer> A) {
         int size = A.size();
         int[] lmin = new int[size];

@@ -16,7 +16,7 @@ import java.util.ArrayList;
  * because answer of this question would be the very first 2 primes
  */
 
-public class PrimeSum {
+class PrimeSum {
     public boolean isPrime(int A) {
         for (int i = 2; i <= Math.sqrt(A); i++)
             if (A % i == 0)

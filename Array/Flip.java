@@ -15,7 +15,7 @@
 
 import java.util.ArrayList;
 
-public class Flip {
+class Flip {
     public static ArrayList<Integer> checkMax(ArrayList<Integer> A) {
         int a = 0, b = Integer.MIN_VALUE, left = 0, right = 0;
         ArrayList<Integer> ans = new ArrayList<>();
