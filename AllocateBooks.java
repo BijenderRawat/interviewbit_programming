@@ -1,4 +1,4 @@
-// This question was asked in both Google and Flipkart
+// This question was asked in Google and Flipkart
 
 public class AllocateBooks {
     public static int findMin(int[] a) {
