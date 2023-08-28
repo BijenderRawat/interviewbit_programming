@@ -4,7 +4,7 @@
  * i.e. consider only alphanumeric characters.
  */
 
-public class PalindromeString {
+class PalindromeString {
     public int isPalindrome(String A) {
         int first = 0;
         int last = A.length() - 1;

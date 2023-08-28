@@ -7,7 +7,7 @@
     to one space in reversed string
 */
 
-public class ReverseTheString {
+class ReverseTheString {
     public String solve(String s) {
         int j = s.length() - 1;
         while (j > -1 && s.charAt(j) == ' ')

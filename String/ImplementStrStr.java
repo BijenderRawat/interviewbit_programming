@@ -9,7 +9,7 @@
  * 
  */
 
-public class ImplementStrStr {
+class ImplementStrStr {
     public int strstr(String A, String B) {
         if (A.length() == 0 || B.length() == 0 || B.length() > A.length())
             return -1;

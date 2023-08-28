@@ -11,7 +11,7 @@
  * Make sure you only traverse the string once.
  */
 
-public class LengthOfLastWord {
+class LengthOfLastWord {
     public int lengthOfLastWord(String s) {
         if (s.length() == 1 && s.charAt(0) != ' ')
             return 1;
