@@ -2,17 +2,7 @@
 
 // Medium level q asked in Amazon
 
-class Node {
-    int val;
-    Node next;
-
-    Node(int val) {
-        this.val = val;
-        next = null;
-    }
-}
-
-public class EvenReverse {
+class EvenReverse {
     int length(Node A) {
         if (A == null)
             return 0;
@@ -48,9 +38,9 @@ public class EvenReverse {
                 lastnode = lastnode.next;
                 t++;
             }
-            int data = lastnode.val;
-            lastnode.val = node.val;
-            node.val = data;
+            int data = lastnode.data;
+            lastnode.data = node.data;
+            node.data = data;
             i += 2;
             j -= 2;
         }

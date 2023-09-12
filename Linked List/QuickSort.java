@@ -1,14 +1,4 @@
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class QuickSort {
+class QuickSort {
     public static Node pivot(Node left, Node right) {
         Node pivot = left;
         

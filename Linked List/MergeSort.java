@@ -1,17 +1,7 @@
 // Time complexity of sorting a linked list using merge sort is O(nlogn)
 // with O(1) space complexity
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class MergeSort {
+class MergeSort {
     public Node conquer(Node left, Node right) {
         if (left == null)
             return right;

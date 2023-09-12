@@ -7,17 +7,7 @@ so that list becomes 1-2-4-5
 Medium level q asked in Microsoft
 */
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class DeleteDuplicates2 {
+class DeleteDuplicates2 {
     public Node deleteDuplicates(Node A) {
         if (A == null || A.next == null)
             return A;

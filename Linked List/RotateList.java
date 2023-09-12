@@ -7,17 +7,7 @@ The second argument is an integer B, representing the value of k. */
 
 // Asked in Amazon
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class RotateList {
+class RotateList {
     public Node rotateRight(Node A, int B) {
         if (A == null)
             return null;

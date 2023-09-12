@@ -3,17 +3,7 @@ Two sorted linkedlist are given, return a linkedlist with elements of both lists
 Easy level q asked in Microsoft, Amazon, Yahoo
 */
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class MergeSortedList {
+class MergeSortedList {
     public Node mergeTwoList(Node A, Node B) {
         if (A == null)
             return B;

@@ -1,14 +1,4 @@
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class InsertionSort {
+class InsertionSort {
     public Node insertionSortList(Node head) {
         if (head == null)
             return null;

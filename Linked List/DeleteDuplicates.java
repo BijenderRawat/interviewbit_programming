@@ -7,17 +7,7 @@ so that list become 1-2-3-4
 Easy q asked in Microsoft and Amazon
 */
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class DeleteDuplicates {
+class DeleteDuplicates {
     public Node deleteDuplicates(Node A) {
         if (A == null || A.next == null)
             return A;

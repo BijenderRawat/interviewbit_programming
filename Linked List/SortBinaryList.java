@@ -5,17 +5,7 @@ Sort that list so that is a list 1-0-0-1 becomes 0-0-1-1
 Easy q asked in Amazon
 */
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class SortBinaryList {
+class SortBinaryList {
     Node sort(Node A) {
         int numberofzeroes = 0, numberofones = 0;
         Node temp = A;

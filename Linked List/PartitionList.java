@@ -5,17 +5,7 @@ eg if 1-4-3-2-5-2 is a list and B = 3, then the list would become 1-2-2-4-3-2
 Medium level q asked in Microsoft
 */
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class PartitionList {
+class PartitionList {
     public Node partition(Node A, int B) {
         Node lessprev = null;
         Node greaterprev = null;

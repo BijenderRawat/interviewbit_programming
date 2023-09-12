@@ -3,17 +3,7 @@
 
 // Asked in Amazon, Microsoft
 
-class Node {
-    int data;
-    Node next;
-
-    Node(int data) {
-        this.data = data;
-        next = null;
-    }
-}
-
-public class PalindromeList {
+class PalindromeList {
     Node reverse(Node mid) {
         Node prev = mid, current = mid.next;
         prev.next = null;
