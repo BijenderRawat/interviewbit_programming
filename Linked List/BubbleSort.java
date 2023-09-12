@@ -1,4 +1,4 @@
-public class BubbleSort {
+class BubbleSort {
     public Node bubbleSortList(Node A) {
         if (A == null || A.next == null)
             return A;
