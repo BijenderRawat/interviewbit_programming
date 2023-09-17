@@ -9,20 +9,15 @@ import java.util.Stack;
 public class BalanceParentheses {
     public int solve(String A) {
         Stack<Character> s = new Stack<>();
-        for (int i = 0; i < A.length(); i++) {
-            char ch = A.charAt(i);
+        for (char ch : A.toCharArray()) {
             if (ch == '(')
                 s.push(ch);
-            else {
-                if (ch == ')' && s.isEmpty())
-                    return 0;
-                else if (s.peek() == '(')
-                    s.pop();
-                else
-                    return 0;
-            }
+            else if (s.empty())
+                return 0;
+            else if (s.peek() == '(')
+                s.pop();
         }
-        if (s.isEmpty())
+        if (s.size() == 0)
             return 1;
         return 0;
     }
