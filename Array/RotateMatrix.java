@@ -1,3 +1,10 @@
+/*
+ * Medium level q asked in Google, Facebook, Amazon
+ * 
+ * The given arraylist is need to be updated by rotating it 90 degrees clockwise
+ * 
+ */
+
 import java.util.ArrayList;
 
 class RotateMatrix {
